@@ -34,6 +34,5 @@ def merge_multiple_dataframe():
         MyFile.write(str(element)+'\n')
 
 
-
 if __name__ == '__main__':
     merge_multiple_dataframe()
