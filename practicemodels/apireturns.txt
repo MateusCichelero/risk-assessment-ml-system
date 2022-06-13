@@ -1,0 +1,40 @@
+[0, 1, 1, 1, 1]
+
+
+0.5714285714285715
+
+
+{
+  "lastmonth_activity": {
+    "mean": 165.65384615384616, 
+    "median": 73.0, 
+    "std": 284.0332293669447
+  }, 
+  "lastyear_activity": {
+    "mean": 1502.923076923077, 
+    "median": 955.0, 
+    "std": 2192.6449584568304
+  }, 
+  "number_of_employees": {
+    "mean": 26.884615384615383, 
+    "median": 14.0, 
+    "std": 31.353885785435814
+  }
+}
+
+
+
+{
+  "execution_time": [
+    0.3147212829790078, 
+    0.7126778040255886
+  ], 
+  "missing_data_stats": {
+    "corporation": 0.0, 
+    "exited": 0.0, 
+    "lastmonth_activity": 0.0, 
+    "lastyear_activity": 0.0, 
+    "number_of_employees": 0.0
+  }, 
+  "outdated_packages_list": "Package         Version Latest Type\n--------------- ------- ------ -----\nclick           7.1.2   8.1.3  wheel\ncycler          0.10.0  0.11.0 wheel\nFlask           1.1.2   2.1.2  wheel\ngunicorn        20.0.4  20.1.0 wheel\nitsdangerous    1.1.0   2.1.2  wheel\nJinja2          2.11.3  3.1.2  wheel\njoblib          1.0.1   1.1.0  wheel\nkiwisolver      1.3.1   1.4.3  wheel\nMarkupSafe      1.1.1   2.1.1  wheel\nmatplotlib      3.3.4   3.5.2  wheel\nnumpy           1.20.1  1.22.4 wheel\npandas          1.2.2   1.4.2  wheel\nPillow          8.1.0   9.1.1  wheel\npip             21.2.3  22.1.2 wheel\npyparsing       2.4.7   3.0.9  wheel\npython-dateutil 2.8.1   2.8.2  wheel\npytz            2021.1  2022.1 wheel\nscikit-learn    0.24.1  1.1.1  wheel\nscipy           1.6.1   1.8.1  wheel\nseaborn         0.11.1  0.11.2 wheel\nsetuptools      57.4.0  62.4.0 wheel\nsix             1.15.0  1.16.0 wheel\nthreadpoolctl   2.1.0   3.1.0  wheel\nWerkzeug        1.0.1   2.1.2  wheel\n"
+}

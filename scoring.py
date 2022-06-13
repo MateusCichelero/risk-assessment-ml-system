@@ -35,10 +35,12 @@ def score_model():
     predicted=model.predict(X)
 
     f1score=metrics.f1_score(predicted,y)
-    print(f1score)
+    
 
     with open(model_path+'/latestscore.txt','w') as f:
         f.write(str(f1score)+'\n')
+
+    return str(f1score)
 
 
 if __name__ == '__main__':

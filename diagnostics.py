@@ -26,7 +26,7 @@ def model_predictions(df_path):
     df = pd.read_csv(df_path)
     predictions = model.predict(df.loc[:,['lastmonth_activity','lastyear_activity','number_of_employees']])
 
-    return list(predictions)
+    return list(predictions), list(df['exited'].values)
 
 ##################Function to get summary statistics
 def dataframe_summary():
