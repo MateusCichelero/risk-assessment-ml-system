@@ -30,7 +30,7 @@ def predict():
 #######################Scoring Endpoint
 @app.route("/scoring", methods=['GET','OPTIONS'])
 def score():        
-    return str(scoring.score_model())
+    return str(scoring.score_model(None,None))
 
 #######################Summary Statistics Endpoint
 @app.route("/summarystats", methods=['GET','OPTIONS'])
