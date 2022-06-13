@@ -1,5 +1,9 @@
 # A Dynamic Risk Assessment System
 
+- Project **A Dynamic Risk Assessment System** of ML DevOps Engineer Nanodegree Udacity
+- Author: Mateus Cichelero
+- Date: June 2022
+
 ## Background
 Imagine that you're the Chief Data Scientist at a big company that has 10,000 corporate clients. Your company is extremely concerned about attrition risk: the risk that some of their clients will exit their contracts and decrease the company's revenue. They have a team of client managers who stay in contact with clients and try to convince them not to exit their contracts. However, the client management team is small, and they're not able to stay in close contact with all 10,000 clients.
 
